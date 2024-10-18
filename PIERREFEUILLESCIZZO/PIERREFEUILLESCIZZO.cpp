@@ -8,15 +8,12 @@ int main()
 	srand(time(0));
 	int i = 200;
 	int num = ((rand() % 3) + 1);
-	while (i != num)
-	{
+	while (i != num){
 		std::cout << num;
 		std::cout << "3: pierre 2: feuille 1: scissor " << std::endl;
 		std::cin >> i;
 		int num = ((rand() % 3) + 1);
-	}
-	std::cout << annonce[i - 1];
+	}std::cout << annonce[i - 1];
 	std::cout << "bravo";
-	
 	return 0;
 }
